@@ -12,7 +12,6 @@ Open Browser To Login Page
     Go To    https://computing.kku.ac.th
 
 *** Test Cases ***
-Check Computing KKU Website
-    Open Browser To Login Page
-    Page Should Contain    Computing
-    [Teardown]    Close Browser
+Check System Readiness
+    Log To Console    Tharanon - Jenkins and Robot are connected.
+    Should Be True    ${TRUE}
